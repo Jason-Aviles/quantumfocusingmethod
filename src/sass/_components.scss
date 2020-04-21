@@ -1,0 +1,111 @@
+.header {
+  border-bottom: 5px solid rgb(211, 184, 184);
+  &__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-10%, -45%);
+  }
+  text-align: end;
+  background-image: url("../img/picture3.png");
+  height: 120vh;
+  background-position: top;
+  background-size: cover;
+  background-repeat: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+
+  position: relative;
+
+  &__primary--color {
+    background-image: linear-gradient(
+      to right bottom,
+      var(--lighter-red),
+      var(--deep-red)
+    );
+    -webkit-background-clip: text;
+    color: transparent;
+  }
+
+  &__primary {
+    font-size: 4.5rem;
+    font-weight: 400;
+    &--bold {
+      font-weight: 700;
+      font-size: 5rem;
+    }
+  }
+
+  &__third {
+    font-size: 2.5rem;
+  }
+
+  &__fourth {
+    font-size: 1.5rem;
+  }
+
+  &__list {
+    text-align: center;
+    font-size: 1.2rem;
+  }
+  &__input {
+    margin: 0.5rem;
+    border: none;
+    padding: 0.5rem 1.5rem;
+  }
+}
+
+.btn {
+  cursor: pointer;
+  border: none;
+  padding: 2rem;
+  border-radius: 10px;
+  background-image: linear-gradient(to right bottom,var(--blue-beans),var(--light-classy-grey));
+  font-weight: 700;
+  text-transform: uppercase;
+  color: white;
+  &:hover{color:var(--blue-beans);
+    background-image: linear-gradient(to right bottom,var(--light-classy-grey),transparent)
+  
+  }
+}
+.bold {
+  font-weight: 700;
+}
+
+.bio-Img {
+  width: 25%;
+}
+
+.skinny-h2 {
+  font-weight: 300;
+  font-size: 1.2rem;
+  color: var(--lighter-red);
+}
+.uppercase {
+  text-transform: uppercase;
+}
+
+.checkMark {
+  background-color: var(--blue-beans);
+  color:white;
+  padding: 0.5rem;
+  border-radius: 5rem;
+  margin-right: 1rem;
+}
+
+.u-margin-bottom {
+  margin-bottom: 2rem;
+}
+.enableBlur>* {
+  filter: blur(4px);
+}
+.unblur{filter: blur(0) !important;
+  -webkit-filter: blur(0) !important;}
