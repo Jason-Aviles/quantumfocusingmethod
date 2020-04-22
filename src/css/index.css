@@ -51,7 +51,7 @@ body {
 
 .rose {
   opacity: .8;
-  background-image: linear-gradient(to right bottom, #eee8e8a1, #ca9d9d88), url("../img/roses5.jpg");
+  background-image: linear-gradient(to right bottom, #eee8e8a1, #ca9d9d88), url("../img/brain.jpg");
   height: auto;
   background-position: top;
   background-size: cover;
@@ -74,6 +74,38 @@ body {
       font-weight: 400; }
     .rose__paragraph--orange {
       color: #ff7207; }
+
+.icon-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center; }
+  .icon-box__first {
+    width: 100%;
+    display: flex;
+    flex-direction: row; }
+  .icon-box__list {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    flex-direction: row; }
+    .icon-box__list :not(:last-child) {
+      margin-bottom: 4rem; }
+  .icon-box__item {
+    flex: 1 0 25%;
+    display: flex;
+    list-style: none;
+    align-items: center;
+    flex-direction: column;
+    color: #E09862;
+    text-align: center; }
+  .icon-box__icon {
+    font-size: 6.5rem; }
+  .icon-box__icon-text {
+    width: 60%;
+    font-size: 2rem; }
 
 .header {
   border-bottom: 5px solid #d3b8b8;
@@ -163,7 +195,7 @@ body {
   margin-right: 1rem; }
 
 .u-margin-bottom {
-  margin-bottom: 2rem; }
+  margin-bottom: 4rem; }
 
 .enableBlur > * {
   filter: blur(4px); }
@@ -180,3 +212,12 @@ body {
   background-position: top;
   background-size: cover;
   background-repeat: none; }
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #eab289;
+  color: white !important;
+  padding: 2rem; }

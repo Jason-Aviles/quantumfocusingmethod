@@ -244,6 +244,28 @@ function App() {
           <br />
 
       
+          <div className="icon-box">
+
+<div className="icon-box__first">
+<ul className="icon-box__list">
+<li className="icon-box__item"><i class=" fas fa-search icon-box__icon"></i>  <div className="icon-box__icon-text"> Identify Five Excuses you are making</div></li>
+<li className="icon-box__item"><i class=" fas fa-brain icon-box__icon"></i><div className="icon-box__icon-text"> Reasons why you are making these excuses</div></li>
+<li className="icon-box__item"><i class=" fas fa-grin-squint-tears icon-box__icon"></i><div className="icon-box__icon-text"> Best case scenario if you start taking action...</div></li>
+<li className="icon-box__item"><i class=" fas fa-ban icon-box__icon "></i><div className="icon-box__icon-text"> Why is it important that you stop being afraid</div></li>
+
+</ul>
+</div>
+<div className="icon-box__second">
+<ul className="icon-box__list">
+<li className="icon-box__item"><i class=" far fa-times-circle icon-box__icon"></i>  <div className="icon-box__icon-text">    Identify five failures you can become comfortable</div></li>
+<li className="icon-box__item"><i class=" far fa-frown icon-box__icon"></i><div className="icon-box__icon-text"> Why people are afraid of failing </div></li>
+<li className="icon-box__item"><i class=" fas fa-globe-asia icon-box__icon"></i><div className="icon-box__icon-text">How does society say about failure </div></li>
+
+
+</ul>
+</div>
+
+</div>
 
          
         </div>
@@ -254,6 +276,63 @@ function App() {
           <input placeholder="email" type="email" className="header__input" />
 
           <button className="btn"> Yes!! i want a free book!</button></div>
+
+
+
+
+
+
+
+          <main className="main">
+        <div className="main__content--column">
+        <h1 className="header__primary header__primary--color">
+        How does it works?
+          </h1>
+
+  
+
+          <br />
+
+      
+          <div className="icon-box">
+
+<div className="icon-box__first">
+<ul className="icon-box__list">
+<li className="icon-box__item"><i class="fa_prepended fas fa-envelope icon-box__icon"></i>  <div className="  icon-box__icon-text"> STEP 1</div><div className="icon-box__icon-text"> ENTER YOUR EMAIL ADDRESS</div></li>
+<li className="icon-box__item"><i class=" fa_prepended fas fa-mouse-pointer icon-box__icon"></i><div className="icon-box__icon-text"> STEP 2</div><div className="icon-box__icon-text"> CLICK THE BUTTON</div></li>
+<li className="icon-box__item"><i class=" fa_prepended fas fa-check-circle icon-box__icon"></i><div className="icon-box__icon-text"> STEP 3</div><div className="icon-box__icon-text"> RECEIVE EBOOK FOR FREE</div></li>
+
+
+</ul>
+</div>
+
+
+</div>
+
+         
+        </div>
+      </main>
+
+      <div className="border"> <input placeholder="name" className="header__input" />
+          <input placeholder="email" type="email" className="header__input" />
+
+          <button className="btn"> Yes!! i want a free book!</button></div>
+
+
+
+
+<footer className="footer">
+<h1 className="header__primary header__primary--color">
+Quantum Focusing Method
+          </h1>
+
+          COPYRIGHT © 2020. ALL RIGHTS RESERVED. 
+          <p className="rose__paragraph"> This site is not a part of the Facebook website or Facebook Inc. Additionally, this site is not endorsed by
+Facebook in any way. FACEBOOK is a trademark of FACEBOOK, Inc.</p>
+         
+</footer>
+
+
 
     </div>
 

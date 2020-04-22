@@ -122,7 +122,7 @@
 }
 
 .u-margin-bottom {
-  margin-bottom: 2rem;
+  margin-bottom: 4rem;
 }
 .enableBlur > * {
   filter: blur(4px);
@@ -136,3 +136,13 @@
 .border{display: flex; justify-content: space-evenly;padding: 2rem;background-image: linear-gradient(to right,rgb(245, 219, 224),pink);  background-position: top;
   background-size: cover;
   background-repeat: none;}
+
+
+  .footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(234, 178, 137);
+    color:white !important;padding:2rem;
+  }
