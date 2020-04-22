@@ -30,7 +30,11 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  background-image: linear-gradient(to right, #F7EAEC, var(--light-classy-grey));
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 0.767), rgba(237, 215, 196, 0.63)), url("../img/paint.jpg");
+  height: auto;
+  background-position: top;
+  background-size: cover;
+  background-repeat: none;
   text-align: start;
   border-bottom: 5px solid #d3b8b8;
   padding: 4rem; }
@@ -42,7 +46,7 @@ body {
 
 .rose {
   opacity: .8;
-  background-image: linear-gradient(to right bottom, #f0f0f03a, #ca9d9d3b), url("../img/roses.jpg");
+  background-image: linear-gradient(to right bottom, #eee8e8a1, #ca9d9d88), url("../img/roses5.jpg");
   height: auto;
   background-position: top;
   background-size: cover;
@@ -68,7 +72,7 @@ body {
   border-bottom: 5px solid #d3b8b8;
   text-align: end;
   background-image: url("../img/picture3.png");
-  height: 120vh;
+  height: 135vh;
   background-position: top;
   background-size: cover;
   background-repeat: none;
@@ -76,7 +80,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 2rem;
+  padding: 4rem;
   position: relative; }
   .header__content {
     display: flex;
@@ -89,6 +93,10 @@ body {
     transform: translate(-10%, -45%); }
   .header__primary--color {
     background-image: linear-gradient(to right bottom, var(--lighter-red), var(--deep-red));
+    -webkit-background-clip: text;
+    color: transparent; }
+  .header__light {
+    background-image: linear-gradient(to right bottom, #f5f2f2, skyblue);
     -webkit-background-clip: text;
     color: transparent; }
   .header__primary {

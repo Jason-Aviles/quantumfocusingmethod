@@ -88,7 +88,7 @@ You don't even need to invest in countless books<br></br> to get  started and yo
 </main>
 
 <section className="rose ">
-<h1 className="header__primary--bold  header__primary--color unblur">
+<h1 className="header__primary--bold  header__primary--color">
 Hey, Gorgeous Worrier!
 </h1>
 
@@ -106,7 +106,7 @@ Hey, Gorgeous Worrier!
 
 <h2 className="u-margin-bottom header__third  header__primary--color">In Just 2 to 4 Hours !</h2>
 <img className="bio-Img u-margin-bottom" alt="bio" src={bio}/>
-<h2 className="header__third  header__primary--color">Jeff Aviles, LCSW-C</h2>
+<h2 className="header__third  header__light">Jeff Aviles, LCSW-C</h2>
 <p className="rose__paragraph rose__paragraph--light ">I'm here to help you learn how you can permanently overcome your tendency to
 overthink and worry by using this FREE Ebook. Sign up NOW!</p>
 </section>

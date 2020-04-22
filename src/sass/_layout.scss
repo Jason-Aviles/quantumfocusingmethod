@@ -2,7 +2,11 @@
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  background-image: linear-gradient(to right, #F7EAEC,var(--light-classy-grey));
+  background-image: linear-gradient(to right,rgba(255, 255, 255, 0.767), rgba(237, 215, 196, 0.63)),url("../img/paint.jpg");
+  height: auto;
+  background-position:top;
+  background-size: cover;
+  background-repeat: none;
   text-align: start;
   border-bottom: 5px solid rgb(211, 184, 184);
 padding: 4rem;
@@ -16,7 +20,7 @@ padding: 4rem;
 
 
 .rose{  opacity: .8;
-  background-image: linear-gradient(to right bottom,#f0f0f03a,#ca9d9d3b), url("../img/roses.jpg");
+  background-image: linear-gradient(to right bottom,#eee8e8a1,#ca9d9d88), url("../img/roses5.jpg");
   height: auto;
   background-position: top;
   background-size: cover;
