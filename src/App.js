@@ -243,38 +243,9 @@ function App() {
 
           <br />
 
-          <h2 className="skinny-h2 u-margin-bottom">
-            I'm here to help you learn how you can permanently overcome your
-            tendency <br />to overthink and worry by using this{" "}
-            <span className="bold">FREE</span> Ebook.{" "}
-            <span className="bold">Click Now!</span>
-          </h2>
+      
 
-          <ul className="header__list  header__primary--color main__listCheck u-margin-bottom">
-            <li className="header__item u-margin-bottom">
-              <span className="checkMark">&#10003;</span> You don't need to be a
-              master in meditation.{" "}
-            </li>
-            <li className="header__item u-margin-bottom">
-              {" "}
-              <span className="checkMark">&#10003;</span>
-              You don't have to check into a Stress Center.{" "}
-            </li>
-            <li className="header__item u-margin-bottom">
-              {" "}
-              <span className="checkMark">&#10003;</span>
-              You don't need several visits to the doctors' office.{" "}
-            </li>
-
-            <li className="header__item">
-              {" "}
-              <span className="checkMark">&#10003;</span>
-              You don't even need to invest in countless books<br /> to get
-              started and you can be on your way to <br />rid yourself of
-              anxiety in just ONE Afternoon!{" "}
-            </li>
-          </ul>
-          <button className="btn"> Yes!! i want a free book!</button>
+         
         </div>
       </main>
 
