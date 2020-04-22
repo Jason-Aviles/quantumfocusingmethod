@@ -38,6 +38,11 @@ body {
   text-align: start;
   border-bottom: 5px solid #d3b8b8;
   padding: 4rem; }
+  .main__content--column {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; }
   .main__listCheck {
     display: flex;
     align-items: flex-start;
@@ -60,13 +65,15 @@ body {
   position: relative; }
   .rose__paragraph {
     opacity: 1;
-    color: #1e1e1e;
+    color: #773100;
     font-weight: 700;
     font-size: 1.5rem;
     margin-bottom: 4rem;
     width: 50%; }
     .rose__paragraph--light {
       font-weight: 400; }
+    .rose__paragraph--orange {
+      color: #ff7207; }
 
 .header {
   border-bottom: 5px solid #d3b8b8;
@@ -101,12 +108,15 @@ body {
     color: transparent; }
   .header__primary {
     font-size: 4.5rem;
-    font-weight: 400; }
+    font-weight: 400;
+    font-family: 'Marck Script', cursive; }
     .header__primary--bold {
+      font-family: 'Permanent Marker', cursive;
       font-weight: 700;
       font-size: 5rem; }
   .header__third {
-    font-size: 2.5rem; }
+    font-size: 2.5rem;
+    font-family: 'Marck Script', cursive; }
   .header__fourth {
     font-size: 1.5rem; }
   .header__list {
@@ -122,13 +132,14 @@ body {
   border: none;
   padding: 2rem;
   border-radius: 10px;
-  background-image: linear-gradient(to right bottom, var(--blue-beans), var(--light-classy-grey));
+  background-image: linear-gradient(to right bottom, #F19B34, var(--light-classy-grey));
   font-weight: 700;
   text-transform: uppercase;
-  color: white; }
+  color: white;
+  transition: all 2s ease-in-out; }
   .btn:hover {
-    color: var(--blue-beans);
-    background-image: linear-gradient(to right bottom, var(--light-classy-grey), transparent); }
+    color: white;
+    background-image: linear-gradient(to right bottom, #F19B34, #b17225); }
 
 .bold {
   font-weight: 700; }
@@ -160,3 +171,12 @@ body {
 .unblur {
   filter: blur(0) !important;
   -webkit-filter: blur(0) !important; }
+
+.border {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 2rem;
+  background-image: linear-gradient(to right, #f5dbe0, pink);
+  background-position: top;
+  background-size: cover;
+  background-repeat: none; }
