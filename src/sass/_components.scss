@@ -9,6 +9,12 @@
     top: 50%;
     left: 50%;
     transform: translate(-10%, -45%);
+
+    @media only screen and (max-width: $bp-small) {
+      transform: translate(-50%, -50%);
+      height: 89%;
+      justify-content: space-between;
+    }
   }
   text-align: end;
   background-image: url("../img/picture3.png");
@@ -23,7 +29,12 @@
   padding: 4rem;
 
   position: relative;
-
+  @media only screen and (max-width: $bp-medium) {
+    height: 135vh;
+  }
+  @media only screen and (max-width: $bp-small) {
+    height: 150vh;
+  }
   &__primary--color {
     background-image: linear-gradient(
       to right bottom,
@@ -37,25 +48,25 @@
     background-image: linear-gradient(
       to right bottom,
       rgb(245, 242, 242),
-     skyblue
+      rgb(235, 208, 135)
     );
     -webkit-background-clip: text;
     color: transparent;
   }
   &__primary {
-    font-size: 4.5rem;
+    font-size: 5rem;
     font-weight: 400;
-    font-family: 'Marck Script', cursive;
+    font-family: "Marck Script", cursive;
     &--bold {
-      font-family: 'Permanent Marker', cursive;
+      font-family: "Permanent Marker", cursive;
       font-weight: 700;
-      font-size: 5rem;
+      font-size: 5.3rem;
     }
   }
 
   &__third {
     font-size: 2.5rem;
-    font-family: 'Marck Script', cursive;
+    font-family: "Marck Script", cursive;
   }
 
   &__fourth {
@@ -63,13 +74,39 @@
   }
 
   &__list {
-    text-align: center;
+    text-align: start;
     font-size: 1.2rem;
+
+    @media only screen and (max-width: $bp-medium) {
+      font-size: 1.5rem;
+    }
+
+    @media only screen and (max-width: $bp-small) {
+      font-size: 1.5rem;
+      display: block;
+      width: 100%;
+
+      &:not(:last-child) {
+        margin-bottom: 2rem;
+      }
+    }
+  }
+  &__item {
+    font-size: 2rem;
+    &:not(:last-child) {
+      margin: 0.5rem auto;
+    }
   }
   &__input {
     margin: 0.5rem;
     border: none;
     padding: 0.5rem 1.5rem;
+    border-radius: 10px;
+    @media only screen and (max-width: $bp-small) {
+      &:not(:last-child) {
+        margin-bottom: 2rem;
+      }
+    }
   }
 }
 
@@ -78,9 +115,10 @@
   border: none;
   padding: 2rem;
   border-radius: 10px;
+  text-decoration: none;
   background-image: linear-gradient(
     to right bottom,
-    #F19B34,
+    #f19b34,
     var(--light-classy-grey)
   );
   font-weight: 700;
@@ -91,7 +129,7 @@
     color: white;
     background-image: linear-gradient(
       to right bottom,
-      #F19B34,
+      #f19b34,
       rgb(177, 114, 37)
     );
   }
@@ -102,12 +140,19 @@
 
 .bio-Img {
   width: 25%;
+  @media only screen and (max-width: $bp-small) {
+    margin-top: 4rem;
+    width: 100%;
+  }
 }
 
 .skinny-h2 {
   font-weight: 300;
-  font-size: 1.2rem;
+  font-size: 2.5rem;
   color: var(--lighter-red);
+  @media only screen and (max-width: $bp-small) {
+    font-size: 1.5rem;
+  }
 }
 .uppercase {
   text-transform: uppercase;
@@ -132,17 +177,63 @@
   -webkit-filter: blur(0) !important;
 }
 
-
-.border{display: flex; justify-content: space-evenly;padding: 2rem;background-image: linear-gradient(to right,rgb(245, 219, 224),pink);  background-position: top;
+.border {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 2rem;
+  background-image: linear-gradient(to right, rgb(245, 219, 224), pink);
+  background-position: top;
   background-size: cover;
-  background-repeat: none;}
-
-
-  .footer{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  background-repeat: none;
+  @media only screen and (max-width: $bp-small) {
     flex-direction: column;
-    background-color: rgb(234, 178, 137);
-    color:white !important;padding:2rem;
   }
+}
+
+.methods {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem 0;
+  &__content{  display: flex;
+    justify-content: space-evenly;
+    align-items: center;flex-direction: column;}
+  &__img {
+    margin: 2rem;
+  flex:0 0 50%;
+    display: flex;
+   
+  }
+  &__footer-img{ width: 50%;}
+  &__img-item{
+    width: 25%; margin-right: 2.4rem;
+  }
+}
+
+.vid__content {
+  display: flex;
+  justify-content: space-evenly;
+  align-content: center;
+  flex-direction: column;
+  height: auto;
+  padding: 2.5rem;
+  border-bottom: 3px white solid;
+}
+
+.vid__item {
+  display: flex;
+}
+.vid__typo{    display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* background-color: white; */
+  align-items: center;}
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgb(234, 178, 137);
+  color: white !important;
+  padding: 2rem;
+}

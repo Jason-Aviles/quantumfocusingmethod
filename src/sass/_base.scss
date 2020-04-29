@@ -1,3 +1,15 @@
+$bp-largest: 75em;
+$bp-large: 68.75em;
+$bp-medium:56.25em; //900px / 16px
+$bp-small: 37.5em; // 600px / 16px
+
+:root {
+  --deep-red: rgb(99, 70, 48);
+  --lighter-red: rgb(131, 94, 67);
+  --blue-beans: #b89062;
+
+  --light-classy-grey: #f1f0ee;
+}
 * {
   margin: 0;
   padding: 0;
@@ -11,29 +23,28 @@
 
 html {
   box-sizing: border-box;
- font-size: 62.5%; //1rem = 10px
+  font-size: 62.5%; //1rem = 10px
+  @media only screen and (max-width: $bp-large) {
+    font-size: 50%;
+  }
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
   line-height: 1.6;
-  background-image: linear-gradient(to bottom right,var(--light-classy-grey),var(--blue-beans));
+  background-image: linear-gradient(
+    to bottom right,
+    var(--light-classy-grey),
+    var(--blue-beans)
+  );
   background-size: cover;
   background-repeat: no-repeat;
   min-height: 100vh;
 }
 
-:root{
---deep-red: rgb(99, 70, 48);
---lighter-red: rgb(131, 94, 67);;
---blue-beans: #7acfd6 ;
-
---light-classy-grey: #f1f0ee ;
-}
-
 // Deep Red: #b11a21
 // Lighter Red: #e0474c
-// Blue Beans: #7acfd6 
+// Blue Beans: #7acfd6
 
-// Light Classy Grey: #f1f0ee 
+// Light Classy Grey: #f1f0ee
