@@ -37,7 +37,7 @@ const HeaderOne = () => {
       </ul>
       <input placeholder="name" className="header__input" />
       <input placeholder="email" type="email" className="header__input" />
-
+   
       <button className="btn"> Yes!! i want a free book!</button>
     </div>
   </header>
