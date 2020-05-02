@@ -2,11 +2,11 @@ import React from 'react';
 import HeaderOne from "./HeaderOne"
 import bio from "./img/bio.png";
 import cure from "./img/cure.png"
-const FirstPage = () => {
+const FirstPage = (props) => {
   return (
     <>
      <header className="header">
-    <div className="header__content">
+    <form onSubmit={props.submitForm} className="header__content">
       <h1 className="header__primary header__primary--color">
         Learn How To
       </h1>
@@ -32,17 +32,31 @@ const FirstPage = () => {
           Step One: Enter your email address.{" "}
         </li>
         <li className="header__item">Step Two: Click the button. </li>
-        <li className="header__item">Step Three: Expect an email </li>
+        <li id="top" className="header__item">Step Three: Expect an email </li>
 
         <li className="header__item">
           ​Step Four: That's it. Happy Healing!{" "}
         </li>
       </ul>
-      <input placeholder="name" className="header__input" />
-      <input placeholder="email" type="email" className="header__input" />
+      <input
+      
+            onChange={props.onChangePdf}
+            value={props.username}
+            name="username"
+            placeholder="name"
+            className="header__input"
+          />
+          <input
+          onChange={props.onChangePdf}
+            name="email"
+            value={props.email}
+            placeholder="email"
+            type="email"
+            className="header__input"
+          />
    
       <button className="btn"> Yes!! i want a free book!</button>
-    </div>
+    </form>
   </header>
     <main className="main">
     <img className="bio-Img" alt="bio" src={bio} />
@@ -87,7 +101,7 @@ const FirstPage = () => {
           anxiety in just ONE Afternoon!{" "}
         </li>
       </ul>
-      <button className="btn"> Yes!! i want a free book!</button>
+      <a href="#top" className="btn"> Yes!! i want a free book!</a>
     </div>
   </main>
   <section className="rose ">
@@ -214,10 +228,25 @@ const FirstPage = () => {
       </section>
       
 
-      <div className="border"> <input placeholder="name" className="header__input" />
-          <input placeholder="email" type="email" className="header__input" />
-
-          <button className="btn"> Yes!! i want a free book!</button></div>
+      <form onSubmit={props.submitForm} className="border">
+          {" "}
+          <input
+            onChange={props.onChangePdf}
+            value={props.username}
+            name="username"
+            placeholder="name"
+            className="header__input"
+          />
+          <input
+          onChange={props.onChangePdf}
+            name="email"
+            value={props.email}
+            placeholder="email"
+            type="email"
+            className="header__input"
+          />
+          <button className="btn"> Yes!! i want a free book!</button>
+        </form>
 
           <main className="main">
         <div className="main__content--column">
@@ -266,10 +295,25 @@ const FirstPage = () => {
       </main>
 
 
-      <div className="border"> <input placeholder="name" className="header__input" />
-          <input placeholder="email" type="email" className="header__input" />
-
-          <button className="btn"> Yes!! i want a free book!</button></div>
+      <form onSubmit={props.submitForm} className="border">
+          {" "}
+          <input
+            onChange={props.onChangePdf}
+            value={props.username}
+            name="username"
+            placeholder="name"
+            className="header__input"
+          />
+          <input
+          onChange={props.onChangePdf}
+            name="email"
+            value={props.email}
+            placeholder="email"
+            type="email"
+            className="header__input"
+          />
+          <button className="btn"> Yes!! i want a free book!</button>
+        </form>
 
 
 
