@@ -6,7 +6,7 @@ import FirstPage from "./FirstPage";
 import axios from "axios";
 function App(props) {
   const [Info, setInfo] = useState({ username: "", email: "" });
-  //https://quantumfocusingmethod-backend-heaq720s5.now.sh/api/v1
+  //https://quantumsmokingquitmethod.herokuapp.com/api/v1
 
   const onChangePdf = (e) => {
     setInfo({ [e.target.name]: e.target.value });
@@ -16,7 +16,7 @@ function App(props) {
   const postFetch = (user) => {
     axios
       .post(
-        "https://quantumfocusingmethod-backend-heaq720s5.now.sh/api/v1",
+        "https://quantumsmokingquitmethod.herokuapp.com/api/v1",
         user
       )
       .then((data) => {
