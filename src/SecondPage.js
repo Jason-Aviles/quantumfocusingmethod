@@ -45,7 +45,7 @@ const SecondPage = (props) => {
               className="vid__item"
               width="620"
               height="340"
-              src="https://www.youtube.com/watch?v=qLzoeJ7vqs0"
+              src="https://www.youtube.com/embed?v=qLzoeJ7vqs0"
             />
           </div>{" "}
           <a href="#bottom" className="btn">
