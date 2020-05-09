@@ -18,7 +18,7 @@
   }
   text-align: end;
   background-image: url("../img/picture3.png");
-  height: 135vh;
+  height: 70rem;
   background-position: top;
   background-size: cover;
   background-repeat: none;
@@ -30,7 +30,7 @@
 
   position: relative;
   @media only screen and (max-width: $bp-medium) {
-    height: 135vh;
+    height: 70rem;
   }
   @media only screen and (max-width: $bp-small) {
     height: 150vh;
