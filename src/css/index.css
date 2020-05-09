@@ -237,7 +237,7 @@ body {
   border-bottom: 5px solid #d3b8b8;
   text-align: end;
   background-image: url("../img/picture3.png");
-  height: 135vh;
+  height: 70rem;
   background-position: top;
   background-size: cover;
   background-repeat: none;
@@ -263,7 +263,7 @@ body {
         justify-content: space-between; } }
   @media only screen and (max-width: 56.25em) {
     .header {
-      height: 135vh; } }
+      height: 70rem; } }
   @media only screen and (max-width: 37.5em) {
     .header {
       height: 150vh; } }
