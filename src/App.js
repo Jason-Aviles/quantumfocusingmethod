@@ -21,7 +21,7 @@ class App extends Component {
 
     const postFetch = (user) => {
       axios
-        .post("https://quantumsmokingquitmethod.herokuapp.com/api/v1", user)
+        .post("https://cors-anywhere.herokuapp.com/https://quantumsmokingquitmethod.herokuapp.com/api/v1", user)
         .then((data) => {
           console.log(data, "here");
           this.props.history.push(`/submited${this.state.username}/${this.state.email} `);
