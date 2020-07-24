@@ -21,7 +21,14 @@ class App extends Component {
 
     const postFetch = (user) => {
       axios
-        .post("https://cors-anywhere.herokuapp.com/https://quantumsmokingquitmethod.herokuapp.com/api/v1", user)
+        .post("https://quantumsmokingquitmethod.herokuapp.com/api/v1", user,{headers:{
+
+         'Access-Control-Allow-Origin': "*",
+         'Access-Control-Allow-Methods': 'POST',
+         "Access-Control-Allow-Headers": "accept, content-type",
+         "Access-Control-Max-Age": "1728000"
+        
+        }})
         .then((data) => {
           console.log(data, "here");
           this.props.history.push(`/submited${this.state.username}/${this.state.email} `);
