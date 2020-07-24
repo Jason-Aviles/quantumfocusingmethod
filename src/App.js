@@ -5,7 +5,12 @@ import SecondPage from "./SecondPage";
 import FirstPage from "./FirstPage";
 import axios from "axios";
 
-
+axios.defaults.headers.common = {
+  ...axios.defaults.headers.common,
+  'Access-Control-Allow-Origin': 'https://thequantumfocusingmethod.com',
+  "Content-Type": 'application/json',
+ 
+};
 
 class App extends Component {
   state = { 
