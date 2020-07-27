@@ -66,7 +66,7 @@ const FirstPage = (props) => {
       </h1>
 
       <h2 className="skinny-h2 uppercase">
-        I CAN HELP YOU REGAIN CONTROL OF YOUR LIFE THROUGH THIS EBOOK
+      I CAN HELP YOU REGAIN CONTROL OF YOUR LIFE THROUGH THIS Simple to Implement EBOOK
       </h2>
       <br />
 
@@ -111,76 +111,47 @@ const FirstPage = (props) => {
 
         <p className="rose__paragraph">
           {" "}
-          Did you realized how data driven and complex society has become? If
-          you’re like me then you have seen the signals of anxiety on the faces
-          of everyone that is torn up about this mess. Whether your not able of
-          getting out of bed in the morning, having to force yourself to say{" "}
+          Did you realized how data driven and complex society has become? If you’re like me then you have seen the signals of anxiety on the faces of everyone that is torn up about this mess. Whether you struggle getting out of bed because you dont know what to do first, or your having to convince  yourself everyday to say{" "}
           <span className="rose__paragraph--orange">
             "its not the end of the world”
           </span>{" "}
-          over and over again or programming yourself to say that{" "}
-          <span className="rose__paragraph--orange">everything is okay</span>.
-          Or found yourself saying yeah what if this happens instead.
+          over and over again or  perhaps you find yourself constantly trying to convince yourself that{" "}
+          <span className="rose__paragraph--orange">everything is okay</span>,
+          only to have that thought interrupted with the belief that something is going to go horribly wrong.
         </p>
-
         <p className="rose__paragraph">
-          I’ve been in your position several times. I keep imagining what would
-          life have been like if I had lived in simpler times or in the years of
-          horseback riding. We have been bombarded with so much information:
-          having to be{" "}
+Well I’m here to help 
+</p>
+        <p className="rose__paragraph">
+        You see I’ve been in your position several times. I often find myself imagining what would life have been like without all these options without all these choices. We have been bombarded with so much information: having to be{" "}
           <span className="rose__paragraph--orange">politically correct </span>
-          every time, being worried about what others think of us, having the
-          feeling that we have to be perfect all the time can be draining.
+          every time, being worried about what others think of us, having the feeling that we have to be perfect all the time can be so dam draining.
         </p>
 
         <p className="rose__paragraph">
-          I can remember the last time I had to live life with this gripping
-          feeling of stress induced anxiety. I was always thinking the worst was
-          going to happen. This thinking style triggered{" "}
-          <span className="rose__paragraph--orange">anxiety</span> in me and my
-          problem grew to the{" "}
+        I remember the last time I had to live life with this feeling of doom, like something was going to go wrong. I was always thinking the worst was going to happen even though it never did. This thinking style triggered{" "}
+          <span className="rose__paragraph--orange">anxiety</span> in me and skyrocketed the
           <span className="rose__paragraph--orange">
             {" "}
-            point of negatively affecting my life
+            negativity in my brain
           </span>{" "}
-          over the years. See, at an earlier age of about 6, I developed a
-          debilitating stuttering problem.I became so{" "}
-          <span className="rose__paragraph--orange">self-conscious</span> about
-          every word that I used that it caused me to even{" "}
-          <span className="rose__paragraph--orange">stutter</span> more which
-          crippled me to the point of{" "}
+          and caused me to constantly be on guard or over vigilant. See, at an earlier age of about 6, I developed a debilitating stuttering problem.I became so
+          <span className="rose__paragraph--orange">self-conscious</span>  about every word that I used that it caused me to
+          <span className="rose__paragraph--orange">stutter</span>even more which crippled me to the point of
           <span className="rose__paragraph--orange">
-            not wanting to make new friends, not wanting to raise my hand in
-            class
+          not wanting to make new friends, not wanting to raise my hand in class
           </span>{" "}
-          and eventually{" "}
-          <span className="rose__paragraph--orange">getting left back</span> in
-          3rd grade because I had gotten to the point where I couldn’t think at
-          all when the teacher told me to read out loud.
+          and eventually lead to me 
+          <span className="rose__paragraph--orange">getting left back</span> in 3rd grade because I had gotten to the point where I refused to talk because I was worried what others would think. 
         </p>
 
         <p className="rose__paragraph">
-          You might have thought that life wasn’t going to be as stressful as
-          high school but if your like me, you have come to the realization that
-          it is 10 times more intense. In this world you have to be smart,
-          well-spoken, in shape, in a relationship and amongst all you have to
-          be in a meaningful profession because your job is who you are. If you
-          don’t have a meaningful profession than you don’t know yourself and if
-          you don’t know yourself before all of that{" "}
-          <span className="rose__paragraph--orange">
-            {" "}
-            – you will lose yourself.
-          </span>{" "}
-          So you may be constantly comparing yourself to others which causes you
-          to feel horrible.
+        You might have thought that life wasn’t going to be as stressful as high school but if your like me, you have come to the realization that it is 10 times more intense. In this world you have to be smart, well-spoken, in shape, in a relationship and amongst all you have to be in a meaningful profession because your job is who you are. If you don’t have a meaningful profession than you don’t know yourself and if you don’t know yourself you start to compare yourself to others in order to get a good sense of who you are which causes you to feel worse because it may seem others have their life together more than you.
+       
         </p>
         <p className="rose__paragraph">
           So, not only are we dealing with our{" "}
-          <span className="rose__paragraph--orange">inner anxieties </span>but
-          also with the anxiety of the world. The anxieties forced on us are
-          created through Media Networks, Big Corporate Organizations and the
-          Cultural Trends of today. But with the rise of Social Media and
-          technological advancements, many people are{" "}
+          <span className="rose__paragraph--orange">inner anxieties </span>but also with the anxiety of the world. The anxieties forced on us are created through Media Networks, Big Corporate Organizations and the Cultural Trends of today. But with the rise of Social Media and technological advancements, many people are
           <span className="rose__paragraph--orange">sleep deprived</span>{" "}
           because they are{" "}
           <span className="rose__paragraph--orange">
@@ -203,8 +174,7 @@ const FirstPage = (props) => {
           </span>{" "}
           I’m going to reveal a{" "}
           <span className="rose__paragraph--orange">well-kept solution </span>
-          that will enable you to completely rid yourself of your problematic
-          thinking patterns in just 2 to 4 hours time… almost{" "}
+          that will enable you to completely rid yourself of your problematic thinking patterns…. almost {" "}
           <span className="rose__paragraph--orange">INSTANTLY!</span>And here’s
           the best part. You don’t need{" "}
           <span className="rose__paragraph--orange">
