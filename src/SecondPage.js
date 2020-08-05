@@ -41,12 +41,9 @@ const SecondPage = (props) => {
             </h5>
           </div>
           <div className="video">
-            <iframe
-              className="vid__item"
-              width="620"
-              height="340"
-              src="https://www.youtube.com/embed?v=qLzoeJ7vqs0"
-            />
+         
+
+<iframe width="640" height="360" src="https://www.youtube.com/embed/qLzoeJ7vqs0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen  className="vid__item"></iframe>
           </div>{" "}
           <a href="#bottom" className="btn">
             {" "}
