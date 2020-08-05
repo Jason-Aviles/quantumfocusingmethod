@@ -96,8 +96,8 @@ const FirstPage = (props) => {
         <li className="header__item">
           {" "}
           <span className="checkMark">&#10003;</span>
-          You don't even need to invest in countless books<br /> to get
-          started and you can be on your way to <br />rid yourself of
+          You don't even need to invest in countless books to get
+          started and you can be on your way to rid yourself of
           anxiety in just ONE Afternoon!{" "}
         </li>
       </ul>

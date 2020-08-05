@@ -76,7 +76,11 @@
   &__list {
     text-align: start;
     font-size: 1.2rem;
-
+    width: 66%;
+    justify-content: center;
+    text-align: left;
+    align-items: center;
+    display: flex;
     @media only screen and (max-width: $bp-medium) {
       font-size: 1.5rem;
     }
@@ -93,6 +97,7 @@
   }
   &__item {
     font-size: 2rem;
+    width: 100%;
     &:not(:last-child) {
       margin: 0.5rem auto;
     }
