@@ -106,7 +106,7 @@ const FirstPage = (props) => {
   </main>
   <section className="rose ">
         <h1 className="header__primary--bold  header__primary--color">
-          Hey, Gorgeous Worrier!
+          Hey,  Worrier!
         </h1>
 
         <p className="rose__paragraph">
