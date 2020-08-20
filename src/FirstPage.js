@@ -130,19 +130,21 @@ Well I’m here to help
 
         <p className="rose__paragraph">
         I remember the last time I had to live life with this feeling of doom, like something was going to go wrong. I was always thinking the worst was going to happen even though it never did. This thinking style triggered{" "}
-          <span className="rose__paragraph--orange">anxiety</span> in me and skyrocketed the
+          <span className="rose__paragraph--orange"> anxiety</span> in me and skyrocketed the
           <span className="rose__paragraph--orange">
             {" "}
             negativity in my brain
           </span>{" "}
           and caused me to constantly be on guard or over vigilant. See, at an earlier age of about 6, I developed a debilitating stuttering problem.I became so
-          <span className="rose__paragraph--orange">self-conscious</span>  about every word that I used that it caused me to
-          <span className="rose__paragraph--orange">stutter</span>even more which crippled me to the point of
-          <span className="rose__paragraph--orange">
-          not wanting to make new friends, not wanting to raise my hand in class
+          <span className="rose__paragraph--orange"> self-conscious</span>  about every word that I used that it caused me to
+          <span className="rose__paragraph--orange"> stutter </span>even more which crippled me to the point 
+          of 
+         
+           <span className="rose__paragraph--orange">
+              <span> not </span> wanting to make new friends, not wanting to raise my hand in class
           </span>{" "}
           and eventually lead to me 
-          <span className="rose__paragraph--orange">getting left back</span> in 3rd grade because I had gotten to the point where I refused to talk because I was worried what others would think. 
+          <span className="rose__paragraph--orange"> getting left back</span> in 3rd grade because I had gotten to the point where I refused to talk because I was worried what others would think. 
         </p>
 
         <p className="rose__paragraph">
@@ -152,7 +154,7 @@ Well I’m here to help
         <p className="rose__paragraph">
           So, not only are we dealing with our{" "}
           <span className="rose__paragraph--orange">inner anxieties </span>but also with the anxiety of the world. The anxieties forced on us are created through Media Networks, Big Corporate Organizations and the Cultural Trends of today. But with the rise of Social Media and technological advancements, many people are
-          <span className="rose__paragraph--orange">sleep deprived</span>{" "}
+          <span className="rose__paragraph--orange"> sleep deprived </span>{" "}
           because they are{" "}
           <span className="rose__paragraph--orange">
             constantly worried about something
@@ -175,13 +177,13 @@ Well I’m here to help
           I’m going to reveal a{" "}
           <span className="rose__paragraph--orange">well-kept solution </span>
           that will enable you to completely rid yourself of your problematic thinking patterns…. almost {" "}
-          <span className="rose__paragraph--orange">INSTANTLY!</span>And here’s
-          the best part. You don’t need{" "}
-          <span className="rose__paragraph--orange">
-            countless hours of meditation,
+          <span className="rose__paragraph--orange"> INSTANTLY! </span>
+          The best part about this process is you don’t need{" "}
+          <span className="rose__paragraph--orange"> 
+            to spend countless hours of meditating,
           </span>{" "}
-          prescription<span className="rose__paragraph--orange"> drugs</span>{" "}
-          with alarming side-affects or innumerable self-help books!
+          or using prescription<span className="rose__paragraph--orange"> drugs</span>{" "}
+          with alarming side-affects or reading a bunch of self-help books containing  fluff you can't apply!
         </p>
 
         <h2 className="u-margin-bottom header__third  rose__paragraph--orange">
