@@ -2,6 +2,16 @@ import React from 'react';
 import HeaderOne from "./HeaderOne"
 import bio from "./img/bio.png";
 import cure from "./img/cure.png"
+
+
+
+
+
+
+
+
+
+
 const FirstPage = (props) => {
   return (
     <>

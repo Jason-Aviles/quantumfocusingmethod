@@ -5,6 +5,22 @@ import SecondPage from "./SecondPage";
 import FirstPage from "./FirstPage";
 import axios from "axios";
 
+
+import ReactPixel from "react-fb-pixel"
+// const advancedMatching = { em: 'some@email.com' }; // optional, more info: https://developers.facebook.com/docs/facebook-pixel/advanced/advanced-matching
+const options = {
+  autoConfig: true, // set pixel's autoConfig
+  debug: false, // enable logs
+};
+ReactPixel.init("465787100601895", options);
+ 
+
+// ReactPixel.init('facebook_pixel_id', {}, { debug: true, autoConfig: false });
+ReactPixel.pageView();
+ReactPixel.fbq('track', 'PageView');
+
+
+
 axios.defaults.headers.common = {
   ...axios.defaults.headers.common,
   "Access-Control-Allow-Origin": "https://thequantumfocusingmethod.com",
@@ -35,7 +51,8 @@ class App extends Component {
           },
         })
         .then((data) => {
-          console.log(data, "here");
+         
+        
           this.props.history.push(
             `/submited${this.state.username}/${this.state.email} `
           );
@@ -45,6 +62,13 @@ class App extends Component {
 
     const submitForm = (e) => {
       e.preventDefault();
+
+ReactPixel.track('ViewContent', {
+          content_name:this.state.name ,
+          content_email: this.state.email,
+       
+        })
+
       postFetch(this.state);
     };
 
