@@ -131,7 +131,7 @@ const SecondPage = (props) => {
               Learn how to relieve months and day of tension in just a couple of
               minutes.
             </div>
-            <a href="https://calendly.com/info-10845/60min" className="btn">
+            <a href="https://calendly.com/javiles747/clarity-session" className="btn">
               {" "}
               FREE CONSULTATION
             </a>
@@ -149,7 +149,7 @@ const SecondPage = (props) => {
               Learn how to start taking action and not be overwhelmed by a bunch
               of different options.
             </div>
-            <a href="https://calendly.com/info-10845/60min" className="btn">
+            <a href="https://calendly.com/javiles747/clarity-session" className="btn">
               {" "}
               FREE CONSULTATION
             </a>
@@ -168,7 +168,7 @@ const SecondPage = (props) => {
               something different with this guide you can learn how to stop over
               analyzing and begin to simplify your thought process.
             </div>
-            <a href="https://calendly.com/info-10845/60min" className="btn">
+            <a href="https://calendly.com/javiles747/clarity-session" className="btn">
               {" "}
               FREE CONSULTATION
             </a>
@@ -187,7 +187,7 @@ const SecondPage = (props) => {
               ideas you have. With this method you can put an end to this and
               learned how to create and sustain your motivation.
             </div>
-            <a href="https://calendly.com/info-10845/60min" className="btn">
+            <a href="https://calendly.com/javiles747/clarity-session" className="btn">
               {" "}
               FREE CONSULTATION
             </a>
@@ -206,7 +206,7 @@ const SecondPage = (props) => {
               you begin to grow. You see the more opportunity you have to take a
               shot in life the more chances you have to make one.
             </div>
-            <a href="https://calendly.com/info-10845/60min" className="btn">
+            <a href="https://calendly.com/javiles747/clarity-session" className="btn">
               {" "}
               FREE CONSULTATION
             </a>
@@ -225,7 +225,7 @@ const SecondPage = (props) => {
               Or even feel like you are being judge to so come off as cold. Put
               end to this madness by using this process.
             </div>
-            <a href="https://calendly.com/info-10845/60min" className="btn">
+            <a href="https://calendly.com/javiles747/clarity-session" className="btn">
               {" "}
               FREE CONSULTATION
             </a>
@@ -244,7 +244,7 @@ const SecondPage = (props) => {
               proven track record of helping people get over this problem in a
               short period of time.
             </div>
-            <a href="https://calendly.com/info-10845/60min" className="btn">
+            <a href="https://calendly.com/javiles747/clarity-session" className="btn">
               {" "}
               FREE CONSULTATION
             </a>
