@@ -289,16 +289,15 @@ body {
   .header__fourth {
     font-size: 1.5rem; }
   .header__list {
-    text-align: start;
-    font-size: 1.2rem;
-    width: 66%;
+    width: 40%;
     justify-content: center;
     text-align: left;
     align-items: center;
+    flex-direction: column;
     display: flex; }
     @media only screen and (max-width: 56.25em) {
       .header__list {
-        font-size: 1.5rem; } }
+        font-size: .9rem; } }
     @media only screen and (max-width: 37.5em) {
       .header__list {
         font-size: 1.5rem;
@@ -307,7 +306,7 @@ body {
         .header__list:not(:last-child) {
           margin-bottom: 2rem; } }
   .header__item {
-    font-size: 2rem;
+    font-size: .9rem;
     width: 100%; }
     .header__item:not(:last-child) {
       margin: 0.5rem auto; }
